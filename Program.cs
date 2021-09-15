@@ -9,9 +9,9 @@ namespace ModifyConstantsAndReadOnly
 
     class Program
     {
-        public const string constString = "I cannot be changed";
+public const string constString = "I cannot be changed";
 
-		static unsafe void Main (string[] args) {
+        static unsafe void Main (string[] args) {
             // modify const strings
             WriteLine(constString);
             StringManipulation(constString, "I can be changed   ");
@@ -23,7 +23,7 @@ namespace ModifyConstantsAndReadOnly
             WriteLine(rx.readoString);
             StringManipulation(rx.readoString, "I can be changed   ");
             WriteLine(rx.readoString);
-		}
+        }
 
         static unsafe void StringManipulation(string str, string to_this) {
             fixed(char* ps = str)
