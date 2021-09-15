@@ -17,10 +17,10 @@ namespace ModifyConstantsAndReadOnly
             StringManipulation(constString, "I can be changed   ");
             WriteLine(constString);
 
-            ROExample rx = new();
-            WriteLine(rx.readoString);
-
             // modify readonly strings
+            ROExample rx = new();
+
+            WriteLine(rx.readoString);
             StringManipulation(rx.readoString, "I can be changed   ");
             WriteLine(rx.readoString);
 		}
