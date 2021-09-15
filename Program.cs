@@ -34,5 +34,5 @@ namespace ModifyConstantsAndReadOnly
             WriteLine(str);
         }
 
-	}
+    }
 }
