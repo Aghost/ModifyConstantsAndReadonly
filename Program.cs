@@ -9,7 +9,7 @@ namespace ModifyConstantsAndReadOnly
 
     class Program
     {
-public const string constString = "I cannot be changed";
+        public const string constString = "I cannot be changed";
 
         static unsafe void Main (string[] args) {
             // modify const strings
